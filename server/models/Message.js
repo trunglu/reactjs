@@ -18,7 +18,8 @@ let messageModel = ApplicationDBContext.applicationDBContext
         freezeTableName: true,
 
         // define the table's name
-        tableName: 'message'
+        tableName: 'message',
+        timestamps: false
     });
     messageModel.prototype.show_message = function () {
         return this.message;

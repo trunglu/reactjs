@@ -4,6 +4,8 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
+    //console.log("Thuc hien reducer:");
+    //console.log(action);
     switch (action.type) {
         case 'LOAD_MESSAGES':
             return {

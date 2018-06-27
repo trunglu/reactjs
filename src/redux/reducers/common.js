@@ -8,7 +8,11 @@ export default (state = defaultState, action) => {
             return {
                 ...defaultState,
                 modalMode: action.modalMode
-            }
+            };
+        /*case '':
+            return {
+
+            };*/
         default:
             return state;
     }
